@@ -28,6 +28,7 @@ public class CafeUtils {
         return new ResponseEntity<String>("{\"message\":\""+responseMessage+"\"}",httpStatus);
     }
 
+
     public static String getUUID(){
         Date date = new Date();
         long time =date.getTime();
